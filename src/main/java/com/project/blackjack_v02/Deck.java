@@ -1,5 +1,7 @@
 package com.project.blackjack_v02;
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
 public class Deck{
 
     //Deck is basically a list of cards.
