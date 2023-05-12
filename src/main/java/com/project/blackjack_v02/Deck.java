@@ -1,5 +1,8 @@
 package com.project.blackjack_v02;
+<<<<<<< HEAD
 import javax.smartcardio.Card;
+=======
+>>>>>>> 7439b37ff1f99af662b9728b36123d723877414d
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
