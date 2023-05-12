@@ -22,8 +22,7 @@ public class Cards
     }
     
     @Override
-	public String toString()
-    {
+	public String toString() {
 		return "Cards [suit=" + suit + ", rank=" + rank + "]";
 	}
 
