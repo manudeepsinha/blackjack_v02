@@ -1,7 +1,7 @@
 package com.project.blackjack_v02;
 public enum Ranks
 {
-    ACE(11),
+    A(11),
     TWO(2),
     THREE(3),
     FOUR(4),
@@ -11,17 +11,19 @@ public enum Ranks
     EIGHT(8),
     NINE(9),
     TEN(10),
-    JACK(10),
-    QUEEN(10),
-    KING(10);
+    J(10),
+    Q(10),
+    K(10);
 	
     private final int value;
 
-    private Ranks(int value) {
+    private Ranks(int value)
+    {
         this.value = value;
     }
 
-    public int getValue() {
+    public int getValue()
+    {
         return value;
     }
 	

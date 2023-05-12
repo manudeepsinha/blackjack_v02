@@ -1,4 +1,8 @@
 package com.project.blackjack_v02;
+<<<<<<< HEAD
+import javax.smartcardio.Card;
+=======
+>>>>>>> 7439b37ff1f99af662b9728b36123d723877414d
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,13 +32,18 @@ public class Deck{
     {
         return cardsList.size();
     }
-    
-    public int getScore(List<Cards> cardsList) {
-    	int total = 0;
-    	for(Cards card: cardsList) {
-    		total += card.getRank().getValue();
-    	}
-		return total;
-	}
+
+    public Cards dealCard()
+    {
+        if(!cardsList.isEmpty())
+        {
+            return cardsList.remove(0);
+        }
+        else
+        {
+            System.out.println("The Deck is Empty");
+            return  null;
+        }
+    }
 
 }
