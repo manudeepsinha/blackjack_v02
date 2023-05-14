@@ -45,46 +45,9 @@ public class Game
 		dealer.setCardsList(deck.dealCard());
 	}
 
-	private void gameLogic()
-	{
-
-//		check if either player has Blackjack with their initial hand and wins the game.
-//		Blackjack is an initial score of 21 with two cards: A + [10, J, Q, K]
-//		sam wins when both players starts with Blackjack
-
-		if (sam.getScore() == BLACKJACK_VALUE )
-		{
-			System.out.println("Sam wins this round, Congratulations");
-		}
-
-		else if(dealer.getScore() == BLACKJACK_VALUE)
-		{
-			System.out.println("Dealer wins this round");
-		}
-//		dealer wins when both players starts with 22 (A + A)
-//		sam has lost the game if their total is higher than 21
-
-		else if (sam.getScore() > BLACKJACK_VALUE)
-		{
-			System.out.println("Sam has lost, Dealer Wins");
-		}
-
-		//the dealer has lost the game if their total is higher than 21
-		else if(dealer.getScore() > BLACKJACK_VALUE)
-		{
-			System.out.println("Sam wins this round, Congratulations");
-		}
-		else
-		{
-			//sam can start drawing cards
-			while(sam.getScore() < 17)
-			{
-				//sam will draw cards
-			}
-
-		}
-
-
-
+	private static void Game() 
+  {
+		// TODO Auto-generated method stub
+		
 	}
 }
