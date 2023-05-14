@@ -1,8 +1,5 @@
 package com.project.blackjack_v02;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Game
 {
 	Deck deck = new Deck();
@@ -21,8 +18,6 @@ public class Game
 		deck.shuffle();
 //		System.out.println(deck);
 		dealCardsToPlayers();
-
-
 	}
 	private void dealCardsToPlayers()
 	{
