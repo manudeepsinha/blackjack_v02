@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Dealer {
-	
+
 	private int score = 0;
 	private List<Cards> cardsList = new ArrayList<Cards>();
 	
